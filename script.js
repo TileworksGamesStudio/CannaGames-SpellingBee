@@ -1,15 +1,15 @@
 (function () {
   'use strict';
 
-  const STORAGE_KEY = 'spelling_bee_save_v5';
-  const CACHE_PUZZLES_KEY = 'spelling_bee_cached_puzzles_v2';
-  const DRAFT_STORAGE_KEY = 'spelling_bee_draft_input';
-  const SETTINGS_KEY = 'spelling_bee_settings_v1';
+  const STORAGE_KEY = 'cannaspelling_bee_save_v5';
+  const CACHE_PUZZLES_KEY = 'cannaspelling_bee_cached_puzzles_v2';
+  const DRAFT_STORAGE_KEY = 'cannaspelling_bee_draft_input';
+  const SETTINGS_KEY = 'cannaspelling_bee_settings_v1';
   const CSV_PATH = './puzzles.csv';
 
   // Configurable Plus button hook for future external link/action
   const PLUS_BUTTON_ACTION = {
-    url: '', // Supply custom URL when ready e.g., 'https://tileworks.example.com'
+    url: 'https://tileworksgamesstudio.github.io/CannaGames-Home/', // Supply custom URL when ready e.g., 'https://tileworks.example.com'
     fallbackMessage: 'Spelling Bee • Daily Hive Edition'
   };
 
